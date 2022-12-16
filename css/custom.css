@@ -18,9 +18,9 @@
 }
 
 .home-carousel {
-  background: url(/images/hands.jpg) center center;
-  background-repeat: no-repeat;
-  background-size:  cover;
+  background: url('/img/texture-bw.png') center center repeat;
+  /* background-repeat: no-repeat;
+  background-size:  cover; */
 }
 
 .home-carousel .dark-mask {
@@ -52,7 +52,7 @@ p.pull-right , .pull-right a {
 
 .img-float-left {
   float: left;
-  margin: 0 15px 0 0;
+  margin: 0px 15px 0px 15px;
   max-height: 300px;
 }
 
@@ -64,8 +64,13 @@ p.pull-right , .pull-right a {
 
 .footer-image {
   max-height: 100px;
+  padding-left: 0px;
 }
 
 .carousel-image {
   max-height: 400px;
+}
+
+div.owl-wrapper-outer p, div.owl-wrapper-outer ul {
+  color: black;
 }

@@ -52,8 +52,8 @@ p.pull-right , .pull-right a {
 
 .img-float-left {
   float: left;
-  margin: 0px 15px 0px 15px;
-  max-height: 300px;
+  margin: 0px 15px 20px 0px;
+  max-height: 400px;
 }
 
 .img-float-right {
